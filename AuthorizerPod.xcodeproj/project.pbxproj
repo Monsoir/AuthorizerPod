@@ -14,6 +14,7 @@
 		F91B45C81EC944C300890613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91B45C61EC944C300890613 /* LaunchScreen.storyboard */; };
 		F91B45D31EC944C300890613 /* AuthorizerPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B45D21EC944C300890613 /* AuthorizerPodTests.swift */; };
 		F91B45DE1EC944C300890613 /* AuthorizerPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B45DD1EC944C300890613 /* AuthorizerPodUITests.swift */; };
+		F91B45ED1EC9450100890613 /* PhotosAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B45EC1EC9450100890613 /* PhotosAuthorizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F91B45D91EC944C300890613 /* AuthorizerPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthorizerPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91B45DD1EC944C300890613 /* AuthorizerPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizerPodUITests.swift; sourceTree = "<group>"; };
 		F91B45DF1EC944C300890613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91B45EC1EC9450100890613 /* PhotosAuthorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosAuthorizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		F91B45BC1EC944C300890613 /* AuthorizerPod */ = {
 			isa = PBXGroup;
 			children = (
+				F91B45EB1EC9450100890613 /* Photos */,
 				F91B45BD1EC944C300890613 /* AppDelegate.swift */,
 				F91B45BF1EC944C300890613 /* ViewController.swift */,
 				F91B45C11EC944C300890613 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				F91B45DF1EC944C300890613 /* Info.plist */,
 			);
 			path = AuthorizerPodUITests;
+			sourceTree = "<group>";
+		};
+		F91B45EB1EC9450100890613 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				F91B45EC1EC9450100890613 /* PhotosAuthorizer.swift */,
+			);
+			path = Photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F91B45C01EC944C300890613 /* ViewController.swift in Sources */,
+				F91B45ED1EC9450100890613 /* PhotosAuthorizer.swift in Sources */,
 				F91B45BE1EC944C300890613 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
