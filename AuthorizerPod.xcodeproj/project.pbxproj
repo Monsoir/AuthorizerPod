@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F91B45BE1EC944C300890613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B45BD1EC944C300890613 /* AppDelegate.swift */; };
+		F91B45C01EC944C300890613 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B45BF1EC944C300890613 /* ViewController.swift */; };
+		F91B45C31EC944C300890613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91B45C11EC944C300890613 /* Main.storyboard */; };
+		F91B45C51EC944C300890613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91B45C41EC944C300890613 /* Assets.xcassets */; };
+		F91B45C81EC944C300890613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91B45C61EC944C300890613 /* LaunchScreen.storyboard */; };
+		F91B45D31EC944C300890613 /* AuthorizerPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B45D21EC944C300890613 /* AuthorizerPodTests.swift */; };
+		F91B45DE1EC944C300890613 /* AuthorizerPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B45DD1EC944C300890613 /* AuthorizerPodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F91B45CF1EC944C300890613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F91B45B21EC944C300890613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F91B45B91EC944C300890613;
+			remoteInfo = AuthorizerPod;
+		};
+		F91B45DA1EC944C300890613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F91B45B21EC944C300890613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F91B45B91EC944C300890613;
+			remoteInfo = AuthorizerPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F91B45BA1EC944C300890613 /* AuthorizerPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthorizerPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91B45BD1EC944C300890613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F91B45BF1EC944C300890613 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F91B45C21EC944C300890613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F91B45C41EC944C300890613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F91B45C71EC944C300890613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F91B45C91EC944C300890613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91B45CE1EC944C300890613 /* AuthorizerPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthorizerPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91B45D21EC944C300890613 /* AuthorizerPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizerPodTests.swift; sourceTree = "<group>"; };
+		F91B45D41EC944C300890613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91B45D91EC944C300890613 /* AuthorizerPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthorizerPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91B45DD1EC944C300890613 /* AuthorizerPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizerPodUITests.swift; sourceTree = "<group>"; };
+		F91B45DF1EC944C300890613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F91B45B71EC944C300890613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91B45CB1EC944C300890613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91B45D61EC944C300890613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F91B45B11EC944C300890613 = {
+			isa = PBXGroup;
+			children = (
+				F91B45BC1EC944C300890613 /* AuthorizerPod */,
+				F91B45D11EC944C300890613 /* AuthorizerPodTests */,
+				F91B45DC1EC944C300890613 /* AuthorizerPodUITests */,
+				F91B45BB1EC944C300890613 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F91B45BB1EC944C300890613 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F91B45BA1EC944C300890613 /* AuthorizerPod.app */,
+				F91B45CE1EC944C300890613 /* AuthorizerPodTests.xctest */,
+				F91B45D91EC944C300890613 /* AuthorizerPodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F91B45BC1EC944C300890613 /* AuthorizerPod */ = {
+			isa = PBXGroup;
+			children = (
+				F91B45BD1EC944C300890613 /* AppDelegate.swift */,
+				F91B45BF1EC944C300890613 /* ViewController.swift */,
+				F91B45C11EC944C300890613 /* Main.storyboard */,
+				F91B45C41EC944C300890613 /* Assets.xcassets */,
+				F91B45C61EC944C300890613 /* LaunchScreen.storyboard */,
+				F91B45C91EC944C300890613 /* Info.plist */,
+			);
+			path = AuthorizerPod;
+			sourceTree = "<group>";
+		};
+		F91B45D11EC944C300890613 /* AuthorizerPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				F91B45D21EC944C300890613 /* AuthorizerPodTests.swift */,
+				F91B45D41EC944C300890613 /* Info.plist */,
+			);
+			path = AuthorizerPodTests;
+			sourceTree = "<group>";
+		};
+		F91B45DC1EC944C300890613 /* AuthorizerPodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F91B45DD1EC944C300890613 /* AuthorizerPodUITests.swift */,
+				F91B45DF1EC944C300890613 /* Info.plist */,
+			);
+			path = AuthorizerPodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F91B45B91EC944C300890613 /* AuthorizerPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91B45E21EC944C300890613 /* Build configuration list for PBXNativeTarget "AuthorizerPod" */;
+			buildPhases = (
+				F91B45B61EC944C300890613 /* Sources */,
+				F91B45B71EC944C300890613 /* Frameworks */,
+				F91B45B81EC944C300890613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthorizerPod;
+			productName = AuthorizerPod;
+			productReference = F91B45BA1EC944C300890613 /* AuthorizerPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F91B45CD1EC944C300890613 /* AuthorizerPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91B45E51EC944C300890613 /* Build configuration list for PBXNativeTarget "AuthorizerPodTests" */;
+			buildPhases = (
+				F91B45CA1EC944C300890613 /* Sources */,
+				F91B45CB1EC944C300890613 /* Frameworks */,
+				F91B45CC1EC944C300890613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F91B45D01EC944C300890613 /* PBXTargetDependency */,
+			);
+			name = AuthorizerPodTests;
+			productName = AuthorizerPodTests;
+			productReference = F91B45CE1EC944C300890613 /* AuthorizerPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F91B45D81EC944C300890613 /* AuthorizerPodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91B45E81EC944C300890613 /* Build configuration list for PBXNativeTarget "AuthorizerPodUITests" */;
+			buildPhases = (
+				F91B45D51EC944C300890613 /* Sources */,
+				F91B45D61EC944C300890613 /* Frameworks */,
+				F91B45D71EC944C300890613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F91B45DB1EC944C300890613 /* PBXTargetDependency */,
+			);
+			name = AuthorizerPodUITests;
+			productName = AuthorizerPodUITests;
+			productReference = F91B45D91EC944C300890613 /* AuthorizerPodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F91B45B21EC944C300890613 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wenyongyang;
+				TargetAttributes = {
+					F91B45B91EC944C300890613 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = A9WCJZAVJ6;
+						ProvisioningStyle = Automatic;
+					};
+					F91B45CD1EC944C300890613 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = A9WCJZAVJ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F91B45B91EC944C300890613;
+					};
+					F91B45D81EC944C300890613 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = A9WCJZAVJ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F91B45B91EC944C300890613;
+					};
+				};
+			};
+			buildConfigurationList = F91B45B51EC944C300890613 /* Build configuration list for PBXProject "AuthorizerPod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F91B45B11EC944C300890613;
+			productRefGroup = F91B45BB1EC944C300890613 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F91B45B91EC944C300890613 /* AuthorizerPod */,
+				F91B45CD1EC944C300890613 /* AuthorizerPodTests */,
+				F91B45D81EC944C300890613 /* AuthorizerPodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F91B45B81EC944C300890613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91B45C81EC944C300890613 /* LaunchScreen.storyboard in Resources */,
+				F91B45C51EC944C300890613 /* Assets.xcassets in Resources */,
+				F91B45C31EC944C300890613 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91B45CC1EC944C300890613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91B45D71EC944C300890613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F91B45B61EC944C300890613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91B45C01EC944C300890613 /* ViewController.swift in Sources */,
+				F91B45BE1EC944C300890613 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91B45CA1EC944C300890613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91B45D31EC944C300890613 /* AuthorizerPodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91B45D51EC944C300890613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91B45DE1EC944C300890613 /* AuthorizerPodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F91B45D01EC944C300890613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F91B45B91EC944C300890613 /* AuthorizerPod */;
+			targetProxy = F91B45CF1EC944C300890613 /* PBXContainerItemProxy */;
+		};
+		F91B45DB1EC944C300890613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F91B45B91EC944C300890613 /* AuthorizerPod */;
+			targetProxy = F91B45DA1EC944C300890613 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F91B45C11EC944C300890613 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F91B45C21EC944C300890613 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F91B45C61EC944C300890613 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F91B45C71EC944C300890613 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F91B45E01EC944C300890613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F91B45E11EC944C300890613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F91B45E31EC944C300890613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9WCJZAVJ6;
+				INFOPLIST_FILE = AuthorizerPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenyongyang.AuthorizerPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F91B45E41EC944C300890613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9WCJZAVJ6;
+				INFOPLIST_FILE = AuthorizerPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenyongyang.AuthorizerPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F91B45E61EC944C300890613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A9WCJZAVJ6;
+				INFOPLIST_FILE = AuthorizerPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenyongyang.AuthorizerPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthorizerPod.app/AuthorizerPod";
+			};
+			name = Debug;
+		};
+		F91B45E71EC944C300890613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A9WCJZAVJ6;
+				INFOPLIST_FILE = AuthorizerPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenyongyang.AuthorizerPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuthorizerPod.app/AuthorizerPod";
+			};
+			name = Release;
+		};
+		F91B45E91EC944C300890613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A9WCJZAVJ6;
+				INFOPLIST_FILE = AuthorizerPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenyongyang.AuthorizerPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AuthorizerPod;
+			};
+			name = Debug;
+		};
+		F91B45EA1EC944C300890613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A9WCJZAVJ6;
+				INFOPLIST_FILE = AuthorizerPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenyongyang.AuthorizerPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AuthorizerPod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F91B45B51EC944C300890613 /* Build configuration list for PBXProject "AuthorizerPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91B45E01EC944C300890613 /* Debug */,
+				F91B45E11EC944C300890613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F91B45E21EC944C300890613 /* Build configuration list for PBXNativeTarget "AuthorizerPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91B45E31EC944C300890613 /* Debug */,
+				F91B45E41EC944C300890613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F91B45E51EC944C300890613 /* Build configuration list for PBXNativeTarget "AuthorizerPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91B45E61EC944C300890613 /* Debug */,
+				F91B45E71EC944C300890613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F91B45E81EC944C300890613 /* Build configuration list for PBXNativeTarget "AuthorizerPodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91B45E91EC944C300890613 /* Debug */,
+				F91B45EA1EC944C300890613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F91B45B21EC944C300890613 /* Project object */;
+}
