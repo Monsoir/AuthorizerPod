@@ -14,7 +14,8 @@
 		F91B45C81EC944C300890613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91B45C61EC944C300890613 /* LaunchScreen.storyboard */; };
 		F91B45D31EC944C300890613 /* AuthorizerPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B45D21EC944C300890613 /* AuthorizerPodTests.swift */; };
 		F91B45DE1EC944C300890613 /* AuthorizerPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B45DD1EC944C300890613 /* AuthorizerPodUITests.swift */; };
-		F91B45ED1EC9450100890613 /* PhotosAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B45EC1EC9450100890613 /* PhotosAuthorizer.swift */; };
+		F9A30F6A1ECEECD90032F773 /* CameraAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A30F671ECEECD90032F773 /* CameraAuthorizer.swift */; };
+		F9A30F6B1ECEECD90032F773 /* PhotosAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A30F691ECEECD90032F773 /* PhotosAuthorizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,8 @@
 		F91B45D91EC944C300890613 /* AuthorizerPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthorizerPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91B45DD1EC944C300890613 /* AuthorizerPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizerPodUITests.swift; sourceTree = "<group>"; };
 		F91B45DF1EC944C300890613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F91B45EC1EC9450100890613 /* PhotosAuthorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosAuthorizer.swift; sourceTree = "<group>"; };
+		F9A30F671ECEECD90032F773 /* CameraAuthorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraAuthorizer.swift; sourceTree = "<group>"; };
+		F9A30F691ECEECD90032F773 /* PhotosAuthorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosAuthorizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,7 @@
 		F91B45BC1EC944C300890613 /* AuthorizerPod */ = {
 			isa = PBXGroup;
 			children = (
-				F91B45EB1EC9450100890613 /* Photos */,
+				F9A30F651ECEECD90032F773 /* AuthorizerPod */,
 				F91B45BD1EC944C300890613 /* AppDelegate.swift */,
 				F91B45BF1EC944C300890613 /* ViewController.swift */,
 				F91B45C11EC944C300890613 /* Main.storyboard */,
@@ -128,10 +130,27 @@
 			path = AuthorizerPodUITests;
 			sourceTree = "<group>";
 		};
-		F91B45EB1EC9450100890613 /* Photos */ = {
+		F9A30F651ECEECD90032F773 /* AuthorizerPod */ = {
 			isa = PBXGroup;
 			children = (
-				F91B45EC1EC9450100890613 /* PhotosAuthorizer.swift */,
+				F9A30F661ECEECD90032F773 /* Camera */,
+				F9A30F681ECEECD90032F773 /* Photos */,
+			);
+			path = AuthorizerPod;
+			sourceTree = "<group>";
+		};
+		F9A30F661ECEECD90032F773 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				F9A30F671ECEECD90032F773 /* CameraAuthorizer.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		F9A30F681ECEECD90032F773 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				F9A30F691ECEECD90032F773 /* PhotosAuthorizer.swift */,
 			);
 			path = Photos;
 			sourceTree = "<group>";
@@ -273,9 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A30F6A1ECEECD90032F773 /* CameraAuthorizer.swift in Sources */,
 				F91B45C01EC944C300890613 /* ViewController.swift in Sources */,
-				F91B45ED1EC9450100890613 /* PhotosAuthorizer.swift in Sources */,
 				F91B45BE1EC944C300890613 /* AppDelegate.swift in Sources */,
+				F9A30F6B1ECEECD90032F773 /* PhotosAuthorizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +548,7 @@
 				F91B45E41EC944C300890613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F91B45E51EC944C300890613 /* Build configuration list for PBXNativeTarget "AuthorizerPodTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +557,7 @@
 				F91B45E71EC944C300890613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F91B45E81EC944C300890613 /* Build configuration list for PBXNativeTarget "AuthorizerPodUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +566,7 @@
 				F91B45EA1EC944C300890613 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
