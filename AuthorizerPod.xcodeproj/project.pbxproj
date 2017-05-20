@@ -16,6 +16,8 @@
 		F91B45DE1EC944C300890613 /* AuthorizerPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91B45DD1EC944C300890613 /* AuthorizerPodUITests.swift */; };
 		F9A30F6A1ECEECD90032F773 /* CameraAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A30F671ECEECD90032F773 /* CameraAuthorizer.swift */; };
 		F9A30F6B1ECEECD90032F773 /* PhotosAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A30F691ECEECD90032F773 /* PhotosAuthorizer.swift */; };
+		F9A30F6D1ECEEE4E0032F773 /* Authorizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A30F6C1ECEEE4E0032F773 /* Authorizable.swift */; };
+		F9A30F721ED0060A0032F773 /* MicroPhoneAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A30F711ED0060A0032F773 /* MicroPhoneAuthorizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F91B45DF1EC944C300890613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9A30F671ECEECD90032F773 /* CameraAuthorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraAuthorizer.swift; sourceTree = "<group>"; };
 		F9A30F691ECEECD90032F773 /* PhotosAuthorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosAuthorizer.swift; sourceTree = "<group>"; };
+		F9A30F6C1ECEEE4E0032F773 /* Authorizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Authorizable.swift; path = AuthorizerPod/Authorizable.swift; sourceTree = "<group>"; };
+		F9A30F711ED0060A0032F773 /* MicroPhoneAuthorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroPhoneAuthorizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		F91B45BC1EC944C300890613 /* AuthorizerPod */ = {
 			isa = PBXGroup;
 			children = (
+				F9A30F6C1ECEEE4E0032F773 /* Authorizable.swift */,
 				F9A30F651ECEECD90032F773 /* AuthorizerPod */,
 				F91B45BD1EC944C300890613 /* AppDelegate.swift */,
 				F91B45BF1EC944C300890613 /* ViewController.swift */,
@@ -133,6 +138,7 @@
 		F9A30F651ECEECD90032F773 /* AuthorizerPod */ = {
 			isa = PBXGroup;
 			children = (
+				F9A30F6E1ECEF2BE0032F773 /* Audio */,
 				F9A30F661ECEECD90032F773 /* Camera */,
 				F9A30F681ECEECD90032F773 /* Photos */,
 			);
@@ -153,6 +159,14 @@
 				F9A30F691ECEECD90032F773 /* PhotosAuthorizer.swift */,
 			);
 			path = Photos;
+			sourceTree = "<group>";
+		};
+		F9A30F6E1ECEF2BE0032F773 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F9A30F711ED0060A0032F773 /* MicroPhoneAuthorizer.swift */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,7 +309,9 @@
 				F9A30F6A1ECEECD90032F773 /* CameraAuthorizer.swift in Sources */,
 				F91B45C01EC944C300890613 /* ViewController.swift in Sources */,
 				F91B45BE1EC944C300890613 /* AppDelegate.swift in Sources */,
+				F9A30F721ED0060A0032F773 /* MicroPhoneAuthorizer.swift in Sources */,
 				F9A30F6B1ECEECD90032F773 /* PhotosAuthorizer.swift in Sources */,
+				F9A30F6D1ECEEE4E0032F773 /* Authorizable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
