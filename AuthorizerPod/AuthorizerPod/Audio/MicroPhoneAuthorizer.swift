@@ -10,13 +10,13 @@ import UIKit
 import AVFoundation
 
 // NSMicrophoneUsageDescription
-class MicroPhoneAuthorizer: NSObject, Authorizable {
-    static func authorized() -> Bool {
+public class MicroPhoneAuthorizer: NSObject, Authorizable {
+    public static func authorized() -> Bool {
         return AVCaptureDevice.authorizationStatus(forMediaType: AVMediaTypeAudio) == .authorized
     }
     
     typealias AuthorizationType = AVAuthorizationStatus
-    static func requestAuthorization(success: @escaping (AVAuthorizationStatus) -> Void, failure: @escaping (AVAuthorizationStatus) -> Void) {
+    public static func requestAuthorization(success: @escaping (AVAuthorizationStatus) -> Void, failure: @escaping (AVAuthorizationStatus) -> Void) {
         AVCaptureDevice.requestAccess(forMediaType: AVMediaTypeAudio) { (grant) in
             if grant {
                 success(.authorized)

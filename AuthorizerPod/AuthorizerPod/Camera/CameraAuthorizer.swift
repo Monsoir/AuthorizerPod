@@ -11,13 +11,13 @@ import AVFoundation
 
 // NSCameraUsageDescription
 
-class CameraAuthorizer: NSObject {
-    static func authorized() -> Bool {
+public class CameraAuthorizer: NSObject {
+    public static func authorized() -> Bool {
         return AVCaptureDevice.authorizationStatus(forMediaType: AVMediaTypeVideo) == .authorized
     }
     
     typealias AuthorizationType = AVAuthorizationStatus
-    static func requestAuthorization(success: @escaping (AVAuthorizationStatus) -> Void, failure: @escaping (AVAuthorizationStatus) -> Void) {
+    public static func requestAuthorization(success: @escaping (AVAuthorizationStatus) -> Void, failure: @escaping (AVAuthorizationStatus) -> Void) {
         AVCaptureDevice.requestAccess(forMediaType: AVMediaTypeVideo) { (grant) in
             if grant {
                 success(.authorized)

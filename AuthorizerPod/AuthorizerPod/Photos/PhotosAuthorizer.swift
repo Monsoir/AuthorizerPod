@@ -11,14 +11,14 @@ import Photos
 
 // NSPhotoLibraryUsageDescription
 
-class PhotosAuthorizer: NSObject, Authorizable {
+public class PhotosAuthorizer: NSObject, Authorizable {
     
-    static func authorized() -> Bool {
+    public static func authorized() -> Bool {
         return PHPhotoLibrary.authorizationStatus() == .authorized
     }
     
     typealias AuthorizationType = PHAuthorizationStatus
-    static func requestAuthorization(success: @escaping (_ status: PHAuthorizationStatus) -> Void, failure: @escaping (_ status: PHAuthorizationStatus) -> Void) {
+    public static func requestAuthorization(success: @escaping (_ status: PHAuthorizationStatus) -> Void, failure: @escaping (_ status: PHAuthorizationStatus) -> Void) {
         PHPhotoLibrary.requestAuthorization { (authorizedStatus) in
             switch authorizedStatus {
             case .authorized:
